@@ -1,0 +1,12 @@
+[package]
+name = "gnosis-era"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eyre = "0.6.12"
+gnosis-primitives = { git = "ssh://git@github.com/gnosischain/gnosis-stuff.git", version = "0.0.1" }
+reth-era = { git = "https://github.com/paradigmxyz/reth", tag = "v1.5.1" }
+reth-primitives = { git = "https://github.com/paradigmxyz/reth", tag = "v1.5.1" }
+alloy-consensus = { version = "1.0.22", default-features = false }
+alloy-primitives = { version = "1.2.1", default-features = false }
