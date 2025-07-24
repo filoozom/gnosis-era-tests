@@ -10,3 +10,5 @@ reth-era = { git = "https://github.com/paradigmxyz/reth", tag = "v1.5.1" }
 reth-primitives = { git = "https://github.com/paradigmxyz/reth", tag = "v1.5.1" }
 alloy-consensus = { version = "1.0.22", default-features = false }
 alloy-primitives = { version = "1.2.1", default-features = false }
+alloy-rlp = "0.3.12"
+hex = "0.4.3"
