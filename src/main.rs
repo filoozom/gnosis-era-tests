@@ -6,7 +6,8 @@ use gnosis_primitives::header::GnosisHeader;
 use reth_era::{
     e2s_types::E2sError,
     era1_file::Era1Reader,
-    execution_types::{BlockTuple, DecodeCompressed},
+    execution_types::BlockTuple,
+    DecodeCompressed
 };
 use reth_primitives::TransactionSigned;
 use std::{error::Error, fs::File, path::Path};
