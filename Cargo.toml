@@ -5,7 +5,7 @@ edition = "2021"
 
 [dependencies]
 eyre = "0.6.12"
-gnosis-primitives = { git = "https://github.com/gnosischain/gnosis-stuff.git", version = "0.0.2" }
+gnosis-primitives = { git = "https://github.com/gnosischain/gnosis-stuff.git", rev = "39bb1fe" }
 reth-era = { git = "https://github.com/paradigmxyz/reth", rev = "9d1af5a" }
 reth-primitives = { git = "https://github.com/paradigmxyz/reth", rev = "9d1af5a" }
 alloy-consensus = { version = "1.0.22", default-features = false }
